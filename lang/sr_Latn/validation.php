@@ -1,0 +1,25 @@
+<?php
+
+return [
+    'required' => 'Polje :attribute je obavezno.',
+    'required_with' => 'Polje :attribute je obavezno uz :values.',
+    'email' => 'Unesite ispravnu email adresu.',
+    'unique' => 'Ova vrednost je već zauzeta.',
+    'exists' => 'Izabrani zapis ne postoji.',
+    'in' => 'Izaberite jednu od ponuđenih opcija.',
+    'integer' => 'Unesite ceo broj.',
+    'numeric' => 'Unesite broj.',
+    'boolean' => 'Izaberite da ili ne.',
+    'array' => 'Unesite ispravan spisak vrednosti.',
+    'date' => 'Unesite ispravan datum.',
+    'accepted' => 'Potrebna je saglasnost.',
+    'alpha_dash' => 'Koristite slova, brojeve i crtice bez razmaka.',
+    'image' => 'Datoteka mora biti fotografija.',
+    'mimes' => 'Dozvoljeni tipovi datoteka su :values.',
+    'mimetypes' => 'Dozvoljeni tipovi datoteka su :values.',
+    'dimensions' => 'Dimenzije fotografije moraju biti od 100 × 100 do 10000 × 10000 piksela.',
+    'max' => ['numeric' => 'Najveća dozvoljena vrednost je :max.', 'string' => 'Dozvoljeno je najviše :max znakova.', 'file' => 'Najveća veličina datoteke je :max KB.', 'array' => 'Dozvoljeno je najviše :max stavki.'],
+    'min' => ['numeric' => 'Najmanja dozvoljena vrednost je :min.', 'string' => 'Potrebno je najmanje :min znakova.', 'file' => 'Najmanja veličina datoteke je :min KB.', 'array' => 'Potrebno je najmanje :min stavki.'],
+    'between' => ['numeric' => 'Vrednost mora biti između :min i :max.', 'string' => 'Unesite između :min i :max znakova.'],
+    'attributes' => ['school_id' => 'škola', 'school_generation_id' => 'generacija', 'tree_group_id' => 'grupa stabala', 'tree_species_id' => 'vrsta drveta', 'latitude' => 'geografska širina', 'longitude' => 'geografska dužina', 'graduation_year' => 'godina završetka školovanja', 'slug' => 'URL oznaka'],
+];

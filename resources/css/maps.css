@@ -1,0 +1,23 @@
+@import 'leaflet/dist/leaflet.css';
+@import 'leaflet.markercluster/dist/MarkerCluster.css';
+
+.ecosync-leaflet-map { height: 500px; min-height: 320px; width: 100%; border-radius: 12px; background: #edf3ef; z-index: 0; }
+.ecosync-leaflet-map .leaflet-control-attribution { font: 12px/1.5 Arial, sans-serif; background: #fffffff2; color: #222; }
+.ecosync-leaflet-map .leaflet-control-attribution a { color: #075c9b; }
+.ecosync-marker-icon { display: grid; place-items: center; border-radius: 50% 50% 50% 4px; border: 3px solid white; box-shadow: 0 2px 8px #0005; background: #28784a; color: white; font: bold 21px/1 Arial, sans-serif; }
+.ecosync-marker-school { background: #2363b5; }
+.ecosync-marker-adopted { background: #a76818; }
+.ecosync-marker-group { background: #173d2c; border-radius: 8px; font-size: 20px; }
+.ecosync-marker-position { background: #44594b; }
+.ecosync-visual-cluster { display: grid; place-items: center; background: #e5f0e1; border: 5px solid #89b777; border-radius: 50%; color: #163d2c; font: bold 16px/1 Arial, sans-serif; box-shadow: 0 1px 5px #0004; }
+.ecosync-sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; }
+.ngo-map-results { display: flex; flex-wrap: wrap; gap: 12px; margin: 16px 0; max-height: 240px; overflow: auto; }
+.ecosync-map-filters { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; }
+.ecosync-map-filters label { min-width: 0; }
+.ngo-map-preview-card { border: 1px solid #d7e0d4; padding: 20px; border-radius: 8px; margin: 16px 0; }
+.ngo-profile-image { max-height: 480px; object-fit: cover; border-radius: 12px; margin: 20px 0; }
+.ngo-honeypot { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
+.ecosync-picker-actions { display: flex; gap: 12px; margin: 12px 0; flex-wrap: wrap; }
+.ecosync-picker-actions button { padding: 8px 16px; border: 1px solid #aaa; border-radius: 6px; cursor: pointer; }
+.ecosync-map-container [role=status] { margin: 12px 0; }
+@media (max-width: 600px) { .ecosync-leaflet-map { height: 390px; } }

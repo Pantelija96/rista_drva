@@ -1,0 +1,1 @@
+@if ($adoption)<div><h3>Istorija usvajanja</h3><ul>@foreach ($adoption->events()->orderBy('id')->get() as $event)<li>{{ $event->created_at->format('d.m.Y. H:i') }} · {{ $event->event }} · {{ App\Models\TreeAdoption::STATUSES[$event->to_status] }} · {{ $event->actor_type }}</li>@endforeach</ul></div>@endif
